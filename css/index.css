@@ -10,7 +10,7 @@ body {
     margin:auto;
 }
 
-#logo {
+.logo {
     font-family: 'Titillium Web', sans-serif;
     font-size: 15px;
     text-align: left;
@@ -32,7 +32,8 @@ body {
         display: flex;
         align-items: center;
     }
-.header-banner {
+
+    .header-banner {
     background-image: url(../img/mars.jpg);
     background-position: center;
     background-size: cover;
