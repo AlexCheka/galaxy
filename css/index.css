@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
+
+:root {
+    --main-color: black;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+
+body {
+    max-width: 980px;
+    margin:auto;
+}
+
+#logo {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
+    text-align: left;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+}
+.menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: grey;
+}
+
+@media (min-width: 768px) {
+    .menu {
+        display: flex;
+        align-items: center;
+    }
+.header-banner {
+    background-image: url(../img/mars.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
